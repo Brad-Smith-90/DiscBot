@@ -1,6 +1,6 @@
 require("dotenv").config();
 const { Client, GatewayIntentBits } = require("discord.js");
-const spinSlots = require("./spin.js"); // Import slot function from spin.js
+const spinSlots = require("./commands/spin.js"); // Import slot function from spin.js
 
 const client = new Client({
   intents: [
